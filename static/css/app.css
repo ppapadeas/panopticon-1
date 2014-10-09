@@ -194,6 +194,11 @@ option {
     width: 30%;
 }
 
+.passports {
+    padding-top: 5px;
+    text-align: center;
+}
+
 .panel-footer {
     margin: auto;
     text-align: center;
