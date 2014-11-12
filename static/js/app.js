@@ -1,4 +1,3 @@
-//get hackers counter
 function get_counter() {
   $.ajax({
     url: 'https://www.hackerspace.gr/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=Network/Leases',
@@ -104,7 +103,7 @@ function get_photos() {
   var flickr_mashup = $('#flickr-mashup');
   var hashtag = flickr_mashup.data('hashtag');
   flickr_mashup.flickrfeed('', flickr_mashup.data('hashtag').substr(1), {
-    limit: 20,
+    limit: 12,
     title: false,
     date: false,
     header: false,
