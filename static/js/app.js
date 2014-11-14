@@ -92,9 +92,7 @@ function get_news() {
     FeedUrl : "https://www.hackerspace.gr/wiki/index.php?title=News&action=feed&feed=rss",
     MaxCount : 5,
     ShowDesc : false,
-    ShowPubDate: true,
-    DateFormat: "DD.MM.YYYY",
-    TitleLinkTarget: "_blank"
+    ShowPubDate: false
   });
 };
 
