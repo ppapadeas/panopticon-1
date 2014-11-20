@@ -20,9 +20,9 @@ function get_counter() {
       'aliens',
       'M$ users',
       'books',
-      'Justin Bieber fans',
       'unicorns',
-      'nyan cats'
+      'nyan cats',
+      'ground stations'
     ];
     var random_text = Math.floor(Math.random()*skadalia.length);
     if ( isNaN(splitted[0]) ) {
