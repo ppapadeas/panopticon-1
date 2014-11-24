@@ -26,7 +26,6 @@
     <li>Financial support of Hackerspace.gr with a 3-month subscription (60&euro;).</li>
     <li>Endless respect for everyone else :-)</li>
   </ul>
-  If you haven't done already, pay your first <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SU9M26K3ALNV8" target="_blank">3-month subscription</a>
 </div>
 <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
 <?php
