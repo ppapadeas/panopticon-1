@@ -1,6 +1,6 @@
 {
   "name": "hsgr",
-  "description": "This app provides an overview of current status of Hackerspace.gr",
+  "description": "Hackerspace.gr web app",
   "icons": {
     "128": "/static/img/icon-128.png"
   },
