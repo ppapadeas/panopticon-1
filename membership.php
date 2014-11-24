@@ -17,7 +17,15 @@
         document.write('<span style="font-weight:bold;">Join Hackerspace.gr</span></div>');
     }
 </script>
-<div class="membership-notice">
+<div class="alert alert-info membership-notice">
+  All members have the following rights/obligations:
+  <ul>
+    <li>Mention at the <a href="https://www.hackerspace.gr/wiki/People" target="_blank">Members page</a> (optional).</li>
+    <li>A <a href="http://hackadaycom.files.wordpress.com/2013/10/hackerspace-passport-custom.jpg?w=580&h=302" target="_blank">Hackerspace Passport</a> with our stamp (optional).</li>
+    <li>Subscription to members mailing list (optional).</li>
+    <li>Financial support of Hackerspace.gr with a 3-month subscription (60&euro;).</li>
+    <li>Endless respect for everyone else :-)</li>
+  </ul>
   If you haven't done already, pay your first <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SU9M26K3ALNV8" target="_blank">3-month subscription</a>
 </div>
 <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
@@ -50,7 +58,7 @@
             $text = "name: ".$name."\nemail: ".$email."\nmemberspage: ".$memberspage."\nmemberslist: ".$memberslist."\n\n";
             $text = $text."recipient: ".$addrrec."\nstreet: ".$addrstreet."\npo: ".$addrpo."\ncity: ".$addrcity."\ncountry: ".$addrcountry;
             mail($mailto,"[hsgr] Membership request","$text","From: hsgrbot <noreply@hackerspace.gr>");
-            echo "Thank you!<br><br>";
+            echo "<div class='alert alert-success membership-notice'>Thank you! Just one more step...<br><br>Pay your first <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SU9M26K3ALNV8' target='_blank'>3-month subscription</a>.</div>";
         } else {
             # set the error code so that we can display it
             $error = $resp->error;
