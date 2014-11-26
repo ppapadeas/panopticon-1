@@ -62,7 +62,6 @@
   <ul>
     <li>Mention at the <a href="https://www.hackerspace.gr/wiki/People" target="_blank">Members page</a> (optional).</li>
     <li>A <a href="http://hackadaycom.files.wordpress.com/2013/10/hackerspace-passport-custom.jpg?w=580&h=302" target="_blank">Hackerspace Passport</a> with our stamp (optional).</li>
-    <li>Subscription to members mailing list (optional).</li>
     <li>Financial support of Hackerspace.gr with a 3-month subscription (60&euro;).</li>
     <li>Endless respect from everyone else :-)</li>
   </ul>
