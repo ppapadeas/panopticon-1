@@ -203,3 +203,8 @@ option {
     text-align: center;
     margin-bottom: 15px;
 }
+
+.supporter-img {
+    max-height: 150px;
+    max-width: 150px;
+}

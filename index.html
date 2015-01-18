@@ -96,10 +96,10 @@
           <p data-l10n-id="donate-text"></p>
         </section>
 
-        <!-- members -->
+        <!-- membership -->
         <section>
-          <h3 data-l10n-id="members-title"></h3>
-          <p data-l10n-id="members-text"></p>
+          <h3 data-l10n-id="membership-title"></h3>
+          <p data-l10n-id="membership-text"></p>
         </section>
       </div>
 
@@ -127,7 +127,7 @@
         <section>
           <h3>Resources</h3>
           <p>
-            <span class="fa fa-pencil"></span> <a href="https://www.hackerspace.gr/wiki/Vision" target="_blank">wiki</a>
+            <span class="fa fa-pencil"></span> <a href="https://www.hackerspace.gr/wiki/Hackerspace.gr" target="_blank">wiki</a>
             <hr>
             <span class="fa fa-twitter"></span> <a href="https://twitter.com/hackerspacegr/" target="_blank">twitter</a><br>
             <span class="fa fa-facebook"></span> <a href="https://www.facebook.com/hackerspacegr" target="_blank">facebook</a><br>
@@ -149,6 +149,163 @@
 
   <!-- Modals -->
 
+  <!-- People Modal -->
+  <div class="modal fade" id="PeopleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          <h4 class="modal-title" id="myModalLabel">Members</h4>
+        </div>
+        <div class="modal-body members-body">
+          <table class="table table-condensed">
+            <thead><tr><td>#</td><td>Name</td></tr></thead>
+            <tr class="active"><td>1.</td><td>Ευάγγελος Μπαλάσκας</td></tr>
+            <tr class="active"><td>2.</td><td>Πιέρρος Παπαδέας</td></tr>
+            <tr class="active"><td>3.</td><td>Νίκος Ρούσσος</td></tr>
+            <tr class="active"><td>4.</td><td>Λευτέρης Κοσμάς</td></tr>
+            <tr class="active"><td>5.</td><td>Γιώργος</td></tr>
+            <tr class="active"><td>6.</td><td>Γιώργος Καργιωτάκης</td></tr>
+            <tr class="active"><td>7.</td><td>Θοδωρής</td></tr>
+            <tr class="active"><td>8.</td><td>Βασίλης Τσιλιγιάννης</td></tr>
+            <tr class="active"><td>9.</td><td>Στέφανος Κορνήλιος Μίτσης Ποιητίδης</td></tr>
+            <tr class="active"><td>10.</td><td>Δημήτρης Τομαράς</td></tr>
+            <tr class="active"><td>11.</td><td>Μαλίνα Τζ</td></tr>
+            <tr class="active"><td>12.</td><td>Γιάννης</td></tr>
+            <tr class="active"><td>13.</td><td>Αλέξανδρος Χρονόπουλος</td></tr>
+            <tr class="active"><td>14.</td><td>Σοφοκλής Γκούμας</td></tr>
+            <tr class="active"><td>15.</td><td>Τάσος</td></tr>
+            <tr class="active"><td>16.</td><td>Γιάννης Γιαννέλος</td></tr>
+            <tr class="active"><td>17.</td><td>Μάνθος Παπαματθαίου</td></tr>
+            <tr class="active"><td>18.</td><td>Κωνσταντίνα Παπαδέα</td></tr>
+            <tr class="active"><td>19.</td><td>Λενιώ Λύτρα</td></tr>
+            <tr class="active"><td>20.</td><td>Αγησίλαος Ζησιμάτος</td></tr>
+            <tr><td>21.</td><td>Γιαννης Νικ.</td></tr>
+            <tr><td>22.</td><td>gnavro</td></tr>
+            <tr class="active"><td>23.</td><td>Ευάγγελος Διαμάντης</td></tr>
+            <tr class="active"><td>24.</td><td>Δωροθέα</td></tr>
+          </table>
+          <small data-l10n-id="people-footer"></small>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Supporters Modal -->
+  <div class="modal fade" id="SupportersModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          <h4 class="modal-title" id="myModalLabel">Supporters</h4>
+        </div>
+        <div class="modal-body">
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingOne">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  2015
+                </a>
+              </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+              <div class="panel-body">
+                <table class="table table-condensed">
+                  <thead><tr><td>Name</td><td>Support</td></tr></thead>
+                  <tr><td><a href="http://www.lulzbot.com/"><img class="supporter-img" src="https://www.hackerspace.gr/wiki/images/LulzBot.png"></a></td><td>3D Printer</td></tr>
+                  <tr><td><a href="http://www.mozilla.org/"><img class="supporter-img" src="https://www.hackerspace.gr/wiki/images/Mozilla-wordmark.png"></a></td><td>Internet</td></tr>
+                  <tr><td><a href="http://www.tophost.gr/"><img class="supporter-img" src="https://www.hackerspace.gr/wiki/images/Tophost.png"></a></td><td>Virtual Private Server</td></tr>
+                  <tr><td><a href="http://www.mastoremata.gr/"><img class="supporter-img" src="https://www.hackerspace.gr/wiki/images/Mastoremata.png"></a></td><td>Magazine Subscription</td></tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingTwo">
+              <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  2014
+                </a>
+              </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div class="panel-body">
+                <table class="table table-condensed">
+                  <thead><tr><td>Name</td><td>Support</td></tr></thead>
+                  <tr><td><a href="http://www.mozilla.org/"><img class="supporter-img" src="https://www.hackerspace.gr/wiki/images/Mozilla-wordmark.png"></a></td><td>Internet</td></tr>
+                  <tr><td><a href="http://www.tophost.gr/"><img class="supporter-img" src="https://www.hackerspace.gr/wiki/images/Tophost.png"></a></td><td>Virtual Private Server</td></tr>
+                  <tr><td><a href="http://www.awmn.net/"><img class="supporter-img" src="https://www.hackerspace.gr/wiki/images/Awmn.png"></a></td><td>Financial Contribution</td></tr>
+                  <tr><td><a href="http://www.mastoremata.gr/"><img class="supporter-img" src="https://www.hackerspace.gr/wiki/images/Mastoremata.png"></a></td><td>Magazine Subscription</td></tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingThree">
+              <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  2013
+                </a>
+              </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+              <div class="panel-body">
+                <table class="table table-condensed">
+                  <thead><tr><td>Name</td><td>Support</td></tr></thead>
+                  <tr><td><a href="http://www.lulzbot.com/"><img class="supporter-img" src="https://www.hackerspace.gr/wiki/images/LulzBot.png"></a></td><td>3D Printer</td></tr>
+                  <tr><td><a href="http://www.tophost.gr/"><img class="supporter-img" src="https://www.hackerspace.gr/wiki/images/Tophost.png"></a></td><td>Virtual Private Server</td></tr>
+                  <tr><td><a href="http://www.robotstore.gr/"><img class="supporter-img" src="https://www.hackerspace.gr/wiki/images/Robotstore.png"></a></td><td>FPGA</td></tr>
+                  <tr><td><a href="http://www.linuxinside.gr/"><img class="supporter-img" src="https://www.hackerspace.gr/wiki/images/LinuxInside.png"></a></td><td>Magazine Subscription</td></tr>
+                  <tr><td><a href="http://www.mastoremata.gr/"><img class="supporter-img" src="https://www.hackerspace.gr/wiki/images/Mastoremata.png"></a></td><td>Magazine Subscription</td></tr>
+                  <tr><td><a href="http://deltahacker.gr/"><img class="supporter-img" src="https://www.hackerspace.gr/wiki/images/DeltaHacker.jpg"></a></td><td>Magazine Subscription</td></tr>
+                </table>
+              </div>
+            </div>
+          </div><div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingThree">
+              <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                  2012
+                </a>
+              </h4>
+            </div>
+            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+              <div class="panel-body">
+                <table class="table table-condensed">
+                  <thead><tr><td>Name</td><td>Support</td></tr></thead>
+                  <tr><td><a href="http://www.tophost.gr/"><img class="supporter-img" src="https://www.hackerspace.gr/wiki/images/Tophost.png"></a></td><td>Virtual Private Server</td></tr>
+                  <tr><td><a href="http://www.linuxinside.gr/"><img class="supporter-img" src="https://www.hackerspace.gr/wiki/images/LinuxInside.png"></a></td><td>Magazine Subscription</td></tr>
+                  <tr><td><a href="http://www.mastoremata.gr/"><img class="supporter-img" src="https://www.hackerspace.gr/wiki/images/Mastoremata.png"></a></td><td>Magazine Subscription</td></tr>
+                  <tr><td><a href="http://deltahacker.gr/"><img class="supporter-img" src="https://www.hackerspace.gr/wiki/images/DeltaHacker.jpg"></a></td><td>Magazine Subscription</td></tr>
+                </table>
+              </div>
+            </div>
+          </div><div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingThree">
+              <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                  2011
+                </a>
+              </h4>
+            </div>
+            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+              <div class="panel-body">
+                <table class="table table-condensed">
+                  <thead><tr><td>Name</td><td>Support</td></tr></thead>
+                  <tr><td><a href="http://www.tophost.gr/"><img class="supporter-img" src="https://www.hackerspace.gr/wiki/images/Tophost.png"></a></td><td>Virtual Private Server</td></tr>
+                  <tr><td><a href="http://www.eellak.gr/"><img class="supporter-img" src="https://www.hackerspace.gr/wiki/images/Eellak.png"></a></td><td>Projection System</td></tr>
+                  <tr><td><a href="http://www.hellug.gr/"><img class="supporter-img" src="https://www.hackerspace.gr/wiki/images/Hellug.png"></a></td><td>Equipment</td></tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
   <!-- Membership Modal -->
   <div class="modal fade" id="MembershipModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -159,6 +316,21 @@
         </div>
         <div class="modal-body membership-body">
           <iframe src="https://hackerspace.gr/membership.php" frameborder="0" width="100%" height="100%"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <!-- Vision Modal -->
+  <div class="modal fade" id="VisionModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          <h4 class="modal-title" id="myModalLabel">Vision</h4>
+        </div>
+        <div class="modal-body" data-l10n-id="vision-text">
+          
         </div>
       </div>
     </div>
