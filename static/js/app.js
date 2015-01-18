@@ -116,6 +116,10 @@ function get_photos() {
 
 
 $(document).ready(function() {
+  if(window.location.hash) {
+      var hash = window.location.hash;
+      $(hash).modal('show');
+  }
   get_counter();
   get_events();
   get_news();
