@@ -89,7 +89,7 @@ function get_events() {
 
 function get_news() {
   $("#news").FeedEk({
-    FeedUrl : "https://www.hackerspace.gr/wiki/index.php?title=News&action=feed&feed=rss",
+    FeedUrl : "https://librenet.gr/public/hsgr.atom",
     MaxCount : 5,
     ShowDesc : false,
     ShowPubDate: false
