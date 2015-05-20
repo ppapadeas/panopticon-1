@@ -18,7 +18,7 @@
 
     <div id="lang">
       <span id="lang-selection" data-l10n-id="lang-selection"><span class="fa fa-language"></span> </span>
-      <select onchange="document.webL10n.setLanguage(this.value || this.options[this.selectedIndex].text);">
+      <select onchange="document.webL10n.setLanguage(this.value || this.options[this.selectedIndex].text);" autocomplete="off">
         <option selected value="en">en</option>
         <option value="el">el</option>
       </select>
