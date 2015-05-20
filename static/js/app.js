@@ -96,25 +96,6 @@ function get_news() {
   });
 };
 
-
-function get_photos() {
-  var flickr_mashup = $('#flickr-mashup');
-  var hashtag = flickr_mashup.data('hashtag');
-  flickr_mashup.flickrfeed('', flickr_mashup.data('hashtag').substr(1), {
-    limit: 12,
-    title: false,
-    date: false,
-    header: false,
-    randomize: true
-  }).bind('loaded', function() {
-    // Check if images exist
-    if ($('.flickrRow').length !== 0) {
-      flickr_mashup.slideDown();
-    }
-  });
-}
-
-
 $(document).ready(function() {
   if(window.location.hash) {
       var hash = window.location.hash;
@@ -123,7 +104,6 @@ $(document).ready(function() {
   get_counter();
   get_events();
   get_news();
-  get_photos();
 
   L.mapbox.accessToken = 'pk.eyJ1IjoiY29temVyYWRkIiwiYSI6ImxjQjFHNFUifQ.ohrYy34a8ZIZejrPSMWIww';
   var map = L.mapbox.map('map', 'comzeradd.jimaooe5',{

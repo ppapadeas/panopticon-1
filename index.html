@@ -50,21 +50,19 @@
           <p id="news"></p>
         </section>
 
-        <!-- photos -->
-        <section class="hidden-xs">
-          <h3 data-l10n-id="photos-title"></h3>
-          <p class="flickr-feed">
-            <div id="flickr-mashup" data-hashtag="#hackerspacegr">
+        <!-- resources -->
+        <section>
+          <h3>Resources</h3>
+          <div class="row">
+            <div class="col-xs-6">
+              <span class="fa fa-pencil"></span> <a href="https://www.hackerspace.gr/wiki/Hackerspace.gr" target="_blank">wiki</a><br>
+              <span class="fa fa-camera"></span> <a href="https://media.hackerspace.gr/" target="_blank">media</a>
             </div>
-          </p>
-        </section>
-
-        <!-- passports -->
-        <section class="hidden-xs">
-          <p class="passports">
-            <a href="https://www.noisebridge.net/wiki/Passport" target="_blank">
-              <img src="static/img/passport-badge.png" alt="hackerspace passports">
-            </a>
+            <div class="col-xs-6">
+              <span class="fa fa-pencil"></span> <a href="https://www.hackerspace.gr/wiki/Bookshelf" target="_blank">wiki</a><br>
+              <span class="fa fa-github"></span> <a href="https://github.com/hsgr" target="_blank">code</a>
+            </div>
+          </div>
           </p>
         </section>
       </div>
@@ -114,17 +112,19 @@
           </p>
         </section>
 
-        <!-- resources -->
+        <!-- social -->
         <section>
-          <h3>Resources</h3>
-          <p>
-            <span class="fa fa-pencil"></span> <a href="https://www.hackerspace.gr/wiki/Hackerspace.gr" target="_blank">wiki</a>
-            <hr>
-            <span class="fa fa-twitter"></span> <a href="https://twitter.com/hackerspacegr/" target="_blank">twitter</a><br>
-            <span class="fa fa-facebook"></span> <a href="https://www.facebook.com/hackerspacegr" target="_blank">facebook</a><br>
-            <span class="fa fa-google-plus"></span> <a href="https://plus.google.com/109386037165495650427/" target="_blank">g+</a><br>
-            <span class="fa fa-github"></span> <a href="https://github.com/hsgr" target="_blank">github</a>
-          </p>
+          <h3>Social</h3>
+          <div class="row">
+            <div class="col-xs-6">
+              <span class="fa fa-star"></span> <a href="https://librenet.gr/u/hsgr/" target="_blank">diaspora*</a><br>
+              <span class="fa fa-twitter"></span> <a href="https://twitter.com/hackerspacegr/" target="_blank">twitter</a><br>
+            </div>
+            <div class="col-xs-6">
+              <span class="fa fa-facebook"></span> <a href="https://www.facebook.com/hackerspacegr" target="_blank">facebook</a><br>
+              <span class="fa fa-google-plus"></span> <a href="https://plus.google.com/109386037165495650427/" target="_blank">g+</a><br>
+            </div>
+          </div>
         </section>
       </div>
 
@@ -132,7 +132,7 @@
 
     <div class="panel-footer">
       <div class="col-md-12">
-          <span class="fa fa-cc"></span> <span data-l10n-id="footer-cc">Content available under <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike</a> unless otherwise noted.</span>
+          <span class="fa fa-cc"></span> 2011-2015 Hackerspace.gr &bull; <span data-l10n-id="footer-cc">Content available under <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike</a> unless otherwise noted.</span>
       </div>
     </div>
 
@@ -185,7 +185,7 @@
       </div>
     </div>
   </div>
-  
+
   <!-- Supporters Modal -->
   <div class="modal fade" id="Supporters" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -303,7 +303,7 @@
       </div>
     </div>
   </div>
-  
+
   <!-- Membership Modal -->
   <div class="modal fade" id="Membership" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -318,17 +318,17 @@
       </div>
     </div>
   </div>
-  
-    <!-- Vision Modal -->
+
+  <!-- Vision Modal -->
   <div class="modal fade" id="Vision" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-          <h4 class="modal-title" id="myModalLabel">Vision</h4>
+          <h4 class="modal-title" id="myModalLabel" data-l10n-id="vision-title"></h4>
         </div>
         <div class="modal-body" data-l10n-id="vision-text">
-          
+
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -452,7 +452,6 @@
   <script src="static/js/bootstrap.min.js"></script>
   <script src="static/js/mapbox.js"></script>
   <script src="static/js/moment.min.js"></script>
-  <script src="static/js/jquery.zflickrfeed.js"></script>
   <script src="static/js/ical_parser.js"></script>
   <script src="static/js/FeedEk.js"></script>
   <script src="static/js/app.js"></script>
