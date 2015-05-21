@@ -155,6 +155,10 @@ option {
     margin-left: 0;
 }
 
+.feedEkList > li {
+    margin-top: 5px;
+}
+
 .event {
     margin-bottom: 15px;
 }
@@ -173,29 +177,6 @@ option {
 
 .itemDate {
     padding-left: 10px;
-}
-
-.flickrBody > ul {
-    list-style-type: none;
-    padding: 0;
-    margin-left: 0;
-    margin: auto;
-    text-align: center;
-}
-
-.flickrRow {
-    display: inline;
-    margin-right: 3px;
-    max-width: 100px;
-    padding: 2px;
-}
-
-.flickrimg {
-    width: 30%;
-}
-
-.passports {
-    padding-top: 5px;
 }
 
 .panel-footer {
