@@ -36,7 +36,7 @@
         $name = htmlspecialchars(stripslashes(trim($_POST['name'])));
         $email = htmlspecialchars(stripslashes(trim($_POST['email'])));
         $memberspage = $_POST['memberspage'];
-        $memberslist = $_POST['memberslist'];
+        $discusslist = $_POST['discusslist'];
         $addrrec = htmlspecialchars(stripslashes(trim($_POST['addrrec'])));
         $addrstreet = htmlspecialchars(stripslashes(trim($_POST['addrstreet'])));
         $addrpo = htmlspecialchars(stripslashes(trim($_POST['addrpo'])));
@@ -44,7 +44,7 @@
         $addrcountry = htmlspecialchars(stripslashes(trim($_POST['addrcountry'])));
 
         if ( $resp->is_valid && (strlen($name) != 0) && (strlen($email) != 0)) {
-            $text = "name: ".$name."\nemail: ".$email."\nmemberspage: ".$memberspage."\nmemberslist: ".$memberslist."\n\n";
+            $text = "name: ".$name."\nemail: ".$email."\nmemberspage: ".$memberspage."\ndiscusslist: ".$discusslist."\n\n";
             $text = $text."recipient: ".$addrrec."\nstreet: ".$addrstreet."\npo: ".$addrpo."\ncity: ".$addrcity."\ncountry: ".$addrcountry;
             mail($mailto,"[hsgr] Membership request","$text","From: hsgrbot <noreply@hackerspace.gr>");
             echo "<div class='alert alert-success membership-notice'>Thank you! Just one more step...<br><br>Pay your first <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SU9M26K3ALNV8' target='_blank'>3-month subscription</a>.</div>";
@@ -77,12 +77,12 @@
 </div>
 <div class="checkbox">
   <label>
-    <input type="checkbox" name="memberspage" value="1"> Add me to <a href="https://www.hackerspace.gr/wiki/People" target="_blank">members page</a>.
+    <input type="checkbox" name="memberspage" value="1"> Add me to <a href="https://www.hackerspace.gr/#People" target="_blank">members page</a>.
   </label>
 </div>
 <div class="checkbox">
   <label>
-    <input type="checkbox" name="memberslist" value="1"> Subscribe to members mailing list.
+    <input type="checkbox" name="discusslist" value="1"> Subscribe to discussion mailing list.
   </label>
 </div>
 <?php
