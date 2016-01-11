@@ -42,11 +42,14 @@
         $addrpo = htmlspecialchars(stripslashes(trim($_POST['addrpo'])));
         $addrcity = htmlspecialchars(stripslashes(trim($_POST['addrcity'])));
         $addrcountry = htmlspecialchars(stripslashes(trim($_POST['addrcountry'])));
+        $headers  = "MIME-Version: 1.0" . "\r\n";
+        $headers .= "Content-type: text/plain; charset=UTF-8" . "\r\n";
+        $headers .= "From: hsgrbot <noreply@hackerspace.gr>";
 
         if ( $resp->is_valid && (strlen($name) != 0) && (strlen($email) != 0)) {
             $text = "name: ".$name."\nemail: ".$email."\nmemberspage: ".$memberspage."\ndiscusslist: ".$discusslist."\n\n";
             $text = $text."recipient: ".$addrrec."\nstreet: ".$addrstreet."\npo: ".$addrpo."\ncity: ".$addrcity."\ncountry: ".$addrcountry;
-            mail($mailto,"[hsgr] Membership request","$text","From: hsgrbot <noreply@hackerspace.gr>");
+            mail($mailto, "[hsgr] Membership request", "$text", $headers);
             echo "<div class='alert alert-success membership-notice'>Thank you! Just one more step...<br><br>Pay your first <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SU9M26K3ALNV8' target='_blank'>3-month subscription</a>.</div>";
         } else {
             # set the error code so that we can display it
