@@ -1,0 +1,17 @@
+{
+  "name": "panopticon",
+  "description": "Hackerspace.gr web app",
+  "version": "0.0.0",
+  "homepage": "https://github.com/hsgr/panopticon",
+  "license": "AGPL",
+  "dependencies": {
+    "angular": "1.4.x",
+    "jquery": "2.1.4",
+    "bootstrap": "3.3.6",
+    "mapbox.js": "2.2.x",
+    "font-awesome": "4.5.0",
+    "webL10n": "*",
+    "moment": "2.11.x",
+    "angular-route": "1.4.x",
+  }
+}
