@@ -67,7 +67,7 @@ function displayEvents(events, events_current, limit) {
         var eventedit = "#EventEdit-c" + i;
         li.setAttribute('class', 'event');
         // Add details from cal file.
-        li.innerHTML = '<span class="fa fa-calendar"></span> <a data-toggle="modal" data-target="'+eventid+'" href="#">' +
+        li.innerHTML = '<span class="fa fa-calendar"></span> <a href="'+events[i].URL+'" target="_blank">' +
         events[i].SUMMARY + '</a><br>&nbsp;&nbsp;&nbsp;&nbsp;' + events[i].day + ', ' + events[i].start_day + '.' +
         events[i].start_month + ' ' + events[i].start_time + '';
         // Add list item to list.
