@@ -51,7 +51,7 @@
               if ( $resp->is_valid && (strlen($name) != 0) && (strlen($email) != 0)) {
                   $text = "name: ".$name."\nemail: ".$email."\nmemberspage: ".$memberspage."\ndiscusslist: ".$discusslist."\n\n";
                   $text = $text."recipient: ".$addrrec."\nstreet: ".$addrstreet."\npo: ".$addrpo."\ncity: ".$addrcity."\ncountry: ".$addrcountry;
-                  mail($mailto, "[hsgr] Membership request", "$text", $headers);
+                  mail("registration@hackerspace.gr", "[hsgr] Membership request", "$text", $headers);
                   echo "<div class='alert alert-success membership-notice'>Thank you! Just one more step...<br><br>Pay your first <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SU9M26K3ALNV8' target='_blank'>3-month subscription</a>.</div>";
               } else {
                   # set the error code so that we can display it
@@ -66,7 +66,7 @@
         <div class="alert alert-info membership-notice">
           All members have the following rights/obligations:
           <ul>
-            <li>Mention at the <a href="https://www.hackerspace.gr/wiki/People" target="_blank">Members page</a> (optional).</li>
+            <li>Mention at the <a href="https://www.hackerspace.gr/#/people/" target="_blank">Members page</a> (optional).</li>
             <li>A <a href="http://hackadaycom.files.wordpress.com/2013/10/hackerspace-passport-custom.jpg?w=580&h=302" target="_blank">Hackerspace Passport</a> with our stamp (optional).</li>
             <li>Financial support of Hackerspace.gr with a 3-month subscription (60&euro;).</li>
             <li>Endless respect from everyone else :-)</li>

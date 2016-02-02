@@ -16,7 +16,8 @@ panopticon.config(['$routeProvider',
                 redirectTo: get_to_top
             }).
             when('/people', {
-                templateUrl: 'partials/people.html'
+                templateUrl: 'partials/people.html',
+                redirectTo: get_to_top
             }).
             when('/supporters', {
                 templateUrl: 'partials/supporters.html',
