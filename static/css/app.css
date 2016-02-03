@@ -231,6 +231,10 @@ section > div {
     padding-left: 10px;
 }
 
+.supporters > tbody > tr> td {
+    vertical-align: middle;
+}
+
 .supporter-img {
     max-height: 150px;
     max-width: 150px;
