@@ -64,13 +64,23 @@
       ?>
       <div class="membership-body">
         <div class="alert alert-info membership-notice">
-          All members have the following rights/obligations:
-          <ul>
-            <li>Mention at the <a href="https://www.hackerspace.gr/#/people/" target="_blank">Members page</a> (optional).</li>
-            <li>A <a href="http://hackadaycom.files.wordpress.com/2013/10/hackerspace-passport-custom.jpg?w=580&h=302" target="_blank">Hackerspace Passport</a> with our stamp (optional).</li>
-            <li>Financial support of Hackerspace.gr with a 3-month subscription (60&euro;).</li>
-            <li>Endless respect from everyone else :-)</li>
-          </ul>
+          <p>
+            Hackerspace.gr is open for everyone to utilize its space and tools.
+            Just visit the space and join its vibrant community.
+          </p>
+          <p>
+            Our awesome members are the people who make this happen with a small sustaining subscription.<br>
+            Do you want to be one of them? Fill this form.
+          </p>
+          <p>
+            All members have the following rights/obligations:
+            <ul>
+              <li>Mention at the <a href="https://www.hackerspace.gr/#/people/" target="_blank">Members page</a> (optional).</li>
+              <li>A <a href="http://hackadaycom.files.wordpress.com/2013/10/hackerspace-passport-custom.jpg?w=580&h=302" target="_blank">Hackerspace Passport</a> with our stamp (optional).</li>
+              <li>Financial support of Hackerspace.gr with a 3-month subscription (60&euro;).</li>
+              <li>Endless respect from everyone else :-)</li>
+            </ul>
+          </p>
         </div>
         <div><?php echo $errormsg; ?></div>
         <div class="form-group has-error">
