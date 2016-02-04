@@ -69,7 +69,9 @@
             Just visit the space and join its vibrant community.
           </p>
           <p>
-            Our awesome members are the people who make this happen with a small sustaining subscription.<br>
+            Our awesome members are the people who make this happen with a small sustaining subscription.
+          </p>
+          <p>
             Do you want to be one of them? Fill this form.
           </p>
           <p>
