@@ -69,6 +69,11 @@
     </nav>
 
     <div class="row">
+      <div class="col-md-8">
+        <section ng-view id="content">
+        </section>
+      </div>
+      
       <div class="col-md-4">
         <!-- events -->
         <section>
@@ -84,7 +89,7 @@
         </section>
 
         <!-- updates -->
-        <section class="hidden-xs">
+        <section>
           <h3>
             <span data-l10n-id="updates-title"></span>
             <div class="feed"><a href="https://www.librenet.gr/public/hsgr.atom" target="_blank"><i class="fa fa-rss-square"></i></a></div>
@@ -94,8 +99,8 @@
           </div>
         </section>
 
-        <!-- updates -->
-        <section class="hidden-xs">
+        <!-- contact -->
+        <section>
           <h3 data-l10n-id="contact-title"></h3>
           <div>
             <p>
@@ -104,11 +109,6 @@
               <span class="fa fa-fw fa-group"></span> <a href="http://webchat.freenode.net/?channels=#hsgr" target="_blank">irc</a><br>
             </p>
           </div>
-        </section>
-      </div>
-
-      <div class="col-md-8">
-        <section ng-view>
         </section>
       </div>
     </div>

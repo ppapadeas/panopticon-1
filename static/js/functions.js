@@ -1,4 +1,5 @@
 var currentLang = 'en';
+var contentAnchor = $('#content').offset().top;
 
 function getLang() {
     var qlang = window.location.search.substring(1).split('=')[1];
@@ -101,8 +102,8 @@ function get_events() {
 }
 
 function get_news() {
-    $("#news").FeedEk({
-        FeedUrl : "https://librenet.gr/public/hsgr.atom",
+    $('#news').FeedEk({
+        FeedUrl : 'https://librenet.gr/public/hsgr.atom',
         MaxCount : 5,
         ShowDesc : false,
         ShowPubDate: false
@@ -110,7 +111,13 @@ function get_news() {
 };
 
 function get_to_top() {
-    $('body,html').animate({
+    $('body, html').animate({
         scrollTop: 0
+    }, 800);
+}
+
+function get_to_content() {
+    $('body, html').animate({
+        scrollTop: contentAnchor - 100
     }, 800);
 }
