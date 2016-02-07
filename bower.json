@@ -12,6 +12,7 @@
     "font-awesome": "4.5.0",
     "webL10n": "*",
     "moment": "2.11.x",
-    "angular-route": "1.4.x"
+    "angular-route": "1.4.x",
+    "angular-ui": "0.4.x"
   }
 }
