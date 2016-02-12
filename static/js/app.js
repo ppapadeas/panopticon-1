@@ -14,6 +14,9 @@ panopticon.config(['$routeProvider',
             when('/faq', {
                 templateUrl: 'partials/faq.html'
             }).
+            when('/projects', {
+                templateUrl: 'partials/projects.html'
+            }).
             when('/location', {
                 templateUrl: 'partials/location.html',
                 redirectTo: get_to_top

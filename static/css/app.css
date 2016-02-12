@@ -251,6 +251,24 @@ table > caption {
     color: black;
 }
 
+.project {
+    margin-top: 20px;
+}
+
+.project-title > img {
+    max-height: 30px;
+    float: right;
+    padding-right: 10px;
+}
+
+.project-title > h3 {
+    vertical-align: middle;
+}
+
+.project-links > .nav > li > a {
+    font-size: 1.2em;
+}
+
 #footer {
     margin: auto;
     text-align: center;
@@ -267,5 +285,5 @@ table > caption {
 }
 
 #back-top {
-    font-size: 1.5em;
+    font-size: 2em;
 }
