@@ -95,10 +95,6 @@ h4 {
     border: none;
 }
 
-.banner {
-    border-radius: 4px;
-}
-
 .panel {
     margin-bottom: 0px;
 }
@@ -160,7 +156,7 @@ option {
 }
 
 section {
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 
 section > h3 {
