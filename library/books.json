@@ -1,0 +1,960 @@
+[
+    {
+        "Authors": [
+            "Clement Nedelcu"
+        ],
+        "ISBN": "9781849510868",
+        "Language": "en",
+        "Publisher": "Packt Pub Limited",
+        "Title": "Nginx HTTP Server",
+        "Year": "2010"
+    },
+    {
+        "Authors": [
+            "Mark Harrison",
+            "Allan Brighton",
+            "John K. Ousterhout"
+        ],
+        "ISBN": "9781565922181",
+        "Language": "",
+        "Publisher": "",
+        "Title": "Tcl/Tk tools",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "Jon Loeliger",
+            "Matthew McCullough"
+        ],
+        "ISBN": "9780596520120",
+        "Language": "",
+        "Publisher": "",
+        "Title": "Version control with Git",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "Scott Murray"
+        ],
+        "ISBN": "9781449339739",
+        "Language": "en",
+        "Publisher": "O'Reilly Media, Inc.",
+        "Title": "Interactive Data Visualization For The Web",
+        "Year": "2013"
+    },
+    {
+        "Authors": [
+            "Jon Reid"
+        ],
+        "ISBN": "9781449306687",
+        "Language": "en",
+        "Publisher": "O'Reilly Media, Inc.",
+        "Title": "JQuery Mobile",
+        "Year": "2011"
+    },
+    {
+        "Authors": [
+            "Jonathan Chaffer",
+            "Karl Swedberg",
+            "Jonathan Chaffer"
+        ],
+        "ISBN": "9781847192509",
+        "Language": "",
+        "Publisher": "",
+        "Title": "Learning jQuery: better interaction design and web development with simple JavaScript techniques",
+        "Year": "2013"
+    },
+    {
+        "Authors": [
+            "Dan Wellman"
+        ],
+        "ISBN": "9781847195128",
+        "Language": "en",
+        "Publisher": "Packt Publishing",
+        "Title": "JQuery UI",
+        "Year": "2009"
+    },
+    {
+        "Authors": [
+            "Bear Bibeault",
+            "Yehuda Katz"
+        ],
+        "ISBN": "9781933988351",
+        "Language": "en",
+        "Publisher": "Manning Publications Company",
+        "Title": "JQuery In Action",
+        "Year": "2008"
+    },
+    {
+        "Authors": [
+            "Cody Lindley",
+            "JQuery Community Experts",
+            "Jonathan Sharp"
+        ],
+        "ISBN": "9780596159771",
+        "Language": "",
+        "Publisher": "",
+        "Title": "JQuery cookbook",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "David Sklar",
+            "Adam Trachtenberg"
+        ],
+        "ISBN": "9781565926813",
+        "Language": "nl",
+        "Publisher": "O'Reilly Media, Inc.",
+        "Title": "PHP cookbook",
+        "Year": "2003"
+    },
+    {
+        "Authors": [
+            "David Sklar"
+        ],
+        "ISBN": "9780596005603",
+        "Language": "en",
+        "Publisher": "O'Reilly Media",
+        "Title": "Learning PHP 5",
+        "Year": "2007"
+    },
+    {
+        "Authors": [
+            "Luke Welling",
+            "Laura Thomson"
+        ],
+        "ISBN": "9780672326721",
+        "Language": "en",
+        "Publisher": "Sams Publishing",
+        "Title": "PHP And MySQL Web Development",
+        "Year": "2004"
+    },
+    {
+        "Authors": [
+            "Elizabeth Naramore",
+            "Elizabeth Naramore"
+        ],
+        "ISBN": "9780764579660",
+        "Language": "",
+        "Publisher": "",
+        "Title": "Beginning PHP5, Apache, and MySQL Web development",
+        "Year": "2005"
+    },
+    {
+        "Authors": [
+            "Ed Lecky-Thompson",
+            "Steven D. Nowicki",
+            "Heow Eide-Goodman"
+        ],
+        "ISBN": "9780764572821",
+        "Language": "en",
+        "Publisher": "John Wiley & Sons",
+        "Title": "Professional PHP5",
+        "Year": "2005"
+    },
+    {
+        "Authors": [
+            "Eric Rosebrock"
+        ],
+        "ISBN": "9780782142792",
+        "Language": "",
+        "Publisher": "",
+        "Title": "Creating interactive Web sites with PHP and Web Services",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "John Coggeshall",
+            "Marco Tabini"
+        ],
+        "ISBN": "9780973589887",
+        "Language": "en",
+        "Publisher": "Marco Tabini & Associates, Inc.",
+        "Title": "The Zend PHP Certification Practice Test Book: [Practice Questions For The Zend Certified Engineer Exam]",
+        "Year": "2005"
+    },
+    {
+        "Authors": [
+            "Zend Technologies"
+        ],
+        "ISBN": "9780672327094",
+        "Language": "en",
+        "Publisher": "Sams Publishing",
+        "Title": "Zend PHP Certification Study Guide",
+        "Year": "2004"
+    },
+    {
+        "Authors": [
+            "Thomas Myer"
+        ],
+        "ISBN": "9780470282458",
+        "Language": "en",
+        "Publisher": "Wrox",
+        "Title": "Professional CodeIgniter",
+        "Year": "2008"
+    },
+    {
+        "Authors": [
+            "Patrick Lenz"
+        ],
+        "ISBN": "9780975841952",
+        "Language": "en",
+        "Publisher": "Sitepoint Pty Limited",
+        "Title": "Build Your Own Ruby On Rails Web Applications",
+        "Year": "2007"
+    },
+    {
+        "Authors": [
+            "David Thomas",
+            "David Heinemeier Hansson",
+            "Leon Breedt"
+        ],
+        "ISBN": "9780977616633",
+        "Language": "en",
+        "Publisher": "",
+        "Title": "Agile Web Development With Rails: A Pragmatic Guide",
+        "Year": "2006"
+    },
+    {
+        "Authors": [
+            "Eric A. Meyer"
+        ],
+        "ISBN": "9780735714250",
+        "Language": "en",
+        "Publisher": "New Riders",
+        "Title": "More Eric Meyer On CSS",
+        "Year": "2004"
+    },
+    {
+        "Authors": [
+            "Eric A. Meyer"
+        ],
+        "ISBN": "9780735712454",
+        "Language": "en",
+        "Publisher": "New Riders Publishing",
+        "Title": "Eric Meyer On CSS: Mastering The Language Of Web Design",
+        "Year": "2003"
+    },
+    {
+        "Authors": [
+            "Cameron Moll",
+            "Andy Budd",
+            "Simon Collison"
+        ],
+        "ISBN": "9781590596142",
+        "Language": "en",
+        "Publisher": "Apress",
+        "Title": "CSS Mastery: Advanced Web Standards Solutions",
+        "Year": "2006"
+    },
+    {
+        "Authors": [
+            "Eric A. Meyer"
+        ],
+        "ISBN": "9780596005252",
+        "Language": "en",
+        "Publisher": "O'Reilly Media, Inc.",
+        "Title": "Cascading Style Sheets: The Definitive Guide",
+        "Year": "2004"
+    },
+    {
+        "Authors": [
+            "Tessa Blakeley Silver"
+        ],
+        "ISBN": "9781847193094",
+        "Language": "",
+        "Publisher": "",
+        "Title": "WordPress: theme design: a complete guide to creating professional WordPress themes",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "Vladimir Prelovac"
+        ],
+        "ISBN": "9781847193599",
+        "Language": "",
+        "Publisher": "",
+        "Title": "WordPress plug-in development: beginner's guide ; build powerful, interactive plugins for your blog and to share online",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "Thord Daniel Hedengren",
+            "Thord Daniel Hedengren"
+        ],
+        "ISBN": "9780470684153",
+        "Language": "",
+        "Publisher": "",
+        "Title": "Smashing WordPress: beyond the blog",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "Aaron Brazell"
+        ],
+        "ISBN": "9780470568132",
+        "Language": "",
+        "Publisher": "",
+        "Title": "WordPress bible",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "Angela Byron"
+        ],
+        "ISBN": "9780596515805",
+        "Language": "en",
+        "Publisher": "O'Reilly Media, Inc.",
+        "Title": "Using Drupal",
+        "Year": "2009"
+    },
+    {
+        "Authors": [
+            "Jacob Redding"
+        ],
+        "ISBN": "9780470438527",
+        "Language": "",
+        "Publisher": "",
+        "Title": "Beginning Drupal",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "Donna Spencer"
+        ],
+        "ISBN": "9780956174062",
+        "Language": "en",
+        "Publisher": "",
+        "Title": "A Practical Guide To Information Architecture",
+        "Year": "2010"
+    },
+    {
+        "Authors": [
+            "Cennydd Bowles",
+            "James Box"
+        ],
+        "ISBN": "9780321719904",
+        "Language": "",
+        "Publisher": "",
+        "Title": "Undercover user experience: learn how to do great UX work with tiny budgets, no time, and limited support",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "Jeffrey Zeldman"
+        ],
+        "ISBN": "9780735712010",
+        "Language": "en",
+        "Publisher": "New Riders",
+        "Title": "Designing With Web Standards",
+        "Year": "2003"
+    },
+    {
+        "Authors": [
+            "Jesse James Garrett"
+        ],
+        "ISBN": "9780321683687",
+        "Language": "en",
+        "Publisher": "New Riders Pub",
+        "Title": "The Elements Of User Experience: User-Centered Design For The Web And Beyond",
+        "Year": "2011"
+    },
+    {
+        "Authors": [
+            "Adrian Shaughnessy"
+        ],
+        "ISBN": "9781856697095",
+        "Language": "",
+        "Publisher": "",
+        "Title": "How to be a graphic designer, without losing your soul",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "Yvonne Rogers",
+            "Helen Sharp",
+            "Jenny Preece"
+        ],
+        "ISBN": "9780470665763",
+        "Language": "en",
+        "Publisher": "John Wiley & Sons",
+        "Title": "Interaction Design: Beyond Human-Computer Interaction",
+        "Year": "2011"
+    },
+    {
+        "Authors": [
+            "Nathan Yau"
+        ],
+        "ISBN": "9781118462195",
+        "Language": "en",
+        "Publisher": "John Wiley & Sons",
+        "Title": "Data Points: Visualization That Means Something",
+        "Year": "2013"
+    },
+    {
+        "Authors": [
+            "Jenifer Tidwell"
+        ],
+        "ISBN": "9781449379704",
+        "Language": "en",
+        "Publisher": "O'Reilly Media, Inc.",
+        "Title": "Designing Interfaces",
+        "Year": "2010"
+    },
+    {
+        "Authors": [
+            "William Buxton",
+            "Saul Greenberg",
+            "Sheelagh Carpendale",
+            "Nicolai Marquardt",
+            "William Buxton"
+        ],
+        "ISBN": "9780123740373",
+        "Language": "",
+        "Publisher": "",
+        "Title": "Sketching user experiences: getting the design right and the right design",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "Alan Cooper",
+            "Robert Reimann",
+            "Dave Cronin"
+        ],
+        "ISBN": "9780470084113",
+        "Language": "en",
+        "Publisher": "Wiley",
+        "Title": "About Face 3: The Essentials Of Interaction Design",
+        "Year": "2007"
+    },
+    {
+        "Authors": [
+            "Steve Krug",
+            "Steve Krug"
+        ],
+        "ISBN": "9780321344755",
+        "Language": "",
+        "Publisher": "",
+        "Title": "Don't make me think!: a common sense approach to Web usability",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "Andy Clarke"
+        ],
+        "ISBN": "9781907828003",
+        "Language": "en",
+        "Publisher": "",
+        "Title": "Hardboiled Web Design",
+        "Year": "2010"
+    },
+    {
+        "Authors": [
+            "Erin M. Anderson",
+            "Erin M. Anderson"
+        ],
+        "ISBN": "9780321703521",
+        "Language": "",
+        "Publisher": "",
+        "Title": "Interact with Web standards: a holistic approach to Web design",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "Jeff Barr"
+        ],
+        "ISBN": "9780980576832",
+        "Language": "en",
+        "Publisher": "Sitepoint Pty Limited",
+        "Title": "Host Your Web Site In The Cloud: Amazon Web Services Made Easy",
+        "Year": "2010"
+    },
+    {
+        "Authors": [
+            "Russ Unger",
+            "Carolyn Chandler",
+            "Russ Unger"
+        ],
+        "ISBN": "9780321607379",
+        "Language": "",
+        "Publisher": "",
+        "Title": "A project guide to UX design: for user experience designers in the field or in the making",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "Dan Cederholm"
+        ],
+        "ISBN": "9781590593813",
+        "Language": "en",
+        "Publisher": "Apress",
+        "Title": "Web Standards Solutions: The Markup And Style Handbook",
+        "Year": "2004"
+    },
+    {
+        "Authors": [
+            "Todd Parker",
+            "Todd Parker"
+        ],
+        "ISBN": "9780321658883",
+        "Language": "",
+        "Publisher": "",
+        "Title": "Designing with progressive enhancement: building the Web that works for everyone",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "Alan D. Bryant"
+        ],
+        "ISBN": "9780201626681",
+        "Language": "en",
+        "Publisher": "Addison Wesley Longman",
+        "Title": "Creating Successful Bulletin Board Systems",
+        "Year": "1994"
+    },
+    {
+        "Authors": [
+            "Ellen Lupton"
+        ],
+        "ISBN": "9781568989693",
+        "Language": "en",
+        "Publisher": "Princeton Architectural Press",
+        "Title": "Thinking With Type: A Critical Guide For Designers, Writers, Editors, &Amp;Amp; Students",
+        "Year": "2010"
+    },
+    {
+        "Authors": [
+            "Kevin D. Mitnick",
+            "William L. Simon",
+            "Steve Wozniak",
+            "William Simon"
+        ],
+        "ISBN": "9789604103126",
+        "Language": "",
+        "Publisher": "",
+        "Title": "The art of deception: controlling the human element of security",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "Clay Shirky"
+        ],
+        "ISBN": "9780143114949",
+        "Language": "",
+        "Publisher": "",
+        "Title": "Here comes everybody: the power of organizing without organizations",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "Hugh E. Williams",
+            "David John Lane"
+        ],
+        "ISBN": "9780596000417",
+        "Language": "en",
+        "Publisher": "O'Reilly Media, Inc.",
+        "Title": "Web Database Applications With PHP And MySQL",
+        "Year": "2002"
+    },
+    {
+        "Authors": [
+            "Mike Dewar"
+        ],
+        "ISBN": "9781449328795",
+        "Language": "en",
+        "Publisher": "O'Reilly Media, Inc.",
+        "Title": "Getting Started With D3",
+        "Year": "2012"
+    },
+    {
+        "Authors": [
+            "Kristina Chodorow",
+            "Michael Dirolf"
+        ],
+        "ISBN": "9781449381561",
+        "Language": "en",
+        "Publisher": "O'Reilly Media, Inc.",
+        "Title": "MongoDB: The Definitive Guide",
+        "Year": "2010"
+    },
+    {
+        "Authors": [
+            "Cay S. Horstmann",
+            "Gary Cornell",
+            "Cay S. Horstmann"
+        ],
+        "ISBN": "9780132354769",
+        "Language": "",
+        "Publisher": "",
+        "Title": "Core Java",
+        "Year": "2013"
+    },
+    {
+        "Authors": [
+            "Cay S. Horstmann",
+            "Gary Cornell",
+            "Cay S. Horstmann"
+        ],
+        "ISBN": "9780132354790",
+        "Language": "",
+        "Publisher": "",
+        "Title": "Core Java",
+        "Year": "2013"
+    },
+    {
+        "Authors": [
+            "Robert Love",
+            "Robert Love"
+        ],
+        "ISBN": "9780596009588",
+        "Language": "",
+        "Publisher": "",
+        "Title": "Linux system programming",
+        "Year": "2014"
+    },
+    {
+        "Authors": [
+            "Evi Nemeth",
+            "Evi Nemeth",
+            "Scott Seebass",
+            "Garth Snyder",
+            "Terry Morreale"
+        ],
+        "ISBN": "9780131480056",
+        "Language": "",
+        "Publisher": "",
+        "Title": "Unix system administration handbook",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "Alex Martelli",
+            "Alex Martelli",
+            "David Ascher",
+            "Anna Martelli Ravenscroft",
+            "Safari Tech Books Online",
+            "Anna Ravenscroft"
+        ],
+        "ISBN": "9780596007973",
+        "Language": "",
+        "Publisher": "",
+        "Title": "Python cookbook",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "Tarek Ziad\u00e9",
+            "Shannon -jj Behrens",
+            "Tarek Ziad\u00e9"
+        ],
+        "ISBN": "9781847194947",
+        "Language": "",
+        "Publisher": "",
+        "Title": "Expert Python programming: learn best practices to designing, coding, and distributing your Python software",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "James Bennett"
+        ],
+        "ISBN": "9781430219385",
+        "Language": "en",
+        "Publisher": "Apress",
+        "Title": "Practical Django Projects",
+        "Year": "2009"
+    },
+    {
+        "Authors": [
+            "Scott Newman"
+        ],
+        "ISBN": "9781847195708",
+        "Language": "",
+        "Publisher": "",
+        "Title": "Django 1.0 template development: a practical guide to Django template development with custom tags, filters, multiple templates, caching and more",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "Karen M. Tracey"
+        ],
+        "ISBN": "9781847197566",
+        "Language": "en",
+        "Publisher": "Packt Pub Limited",
+        "Title": "Django 1.1 Testing And Debugging: Building Rigorously Tested And Bug-Free Django Applications",
+        "Year": "2010"
+    },
+    {
+        "Authors": [
+            "Chris Pine"
+        ],
+        "ISBN": "9781934356364",
+        "Language": "en",
+        "Publisher": "",
+        "Title": "Learn To Program",
+        "Year": "2009"
+    },
+    {
+        "Authors": [
+            "Elliotte Harold",
+            "Scott Means"
+        ],
+        "ISBN": "9780596007645",
+        "Language": "en",
+        "Publisher": "O'Reilly Media, Inc.",
+        "Title": "XML In A Nutshell: A Desktop Quick Reference",
+        "Year": "2004"
+    },
+    {
+        "Authors": [
+            "Peter Lubbers",
+            "Brian Albers",
+            "Frank Salim"
+        ],
+        "ISBN": "9781430227908",
+        "Language": "en",
+        "Publisher": "Apress",
+        "Title": "Pro HTML5 Programming: Powerful APIs For Richer Internet Application Development",
+        "Year": "2010"
+    },
+    {
+        "Authors": [
+            "Michael Amundsen",
+            "Mike Amundsen"
+        ],
+        "ISBN": "9781449306571",
+        "Language": "en",
+        "Publisher": "O'Reilly Media, Inc.",
+        "Title": "Building Hypermedia APIs With HTML5 And Node",
+        "Year": "2011"
+    },
+    {
+        "Authors": [
+            "Mark Pilgrim",
+            "Mark Pilgrim"
+        ],
+        "ISBN": "9780596806026",
+        "Language": "",
+        "Publisher": "",
+        "Title": "HTML5: up and running",
+        "Year": "2013"
+    },
+    {
+        "Authors": [
+            "Aaron Gustafson"
+        ],
+        "ISBN": "9780983589501",
+        "Language": "en",
+        "Publisher": "Picture Window Books",
+        "Title": "Adaptive web design: crafting rich experience with progressive enhancement",
+        "Year": "2011"
+    },
+    {
+        "Authors": [
+            "Ethan Marcotte",
+            "Jeremy Keith",
+            "Ethan Marcotte"
+        ],
+        "ISBN": "9780984442577",
+        "Language": "en",
+        "Publisher": "",
+        "Title": "Responsive Web Design",
+        "Year": "2010"
+    },
+    {
+        "Authors": [
+            "Jeremy Keith",
+            "Jeffrey Zeldman"
+        ],
+        "ISBN": "9780984442508",
+        "Language": "",
+        "Publisher": "",
+        "Title": "HTML5 for web designers",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "Bruce Lawson",
+            "Remy Sharp",
+            "Bruce Lawson"
+        ],
+        "ISBN": "9780321687296",
+        "Language": "",
+        "Publisher": "",
+        "Title": "Introducing HTML5",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "Stuart McClure",
+            "Joel Scambray",
+            "George Kurtz"
+        ],
+        "ISBN": "9780072227420",
+        "Language": "en",
+        "Publisher": "McGraw-Hill Osborne Media",
+        "Title": "Hacking Exposed: Network Security Secrets & Solutions",
+        "Year": "2003"
+    },
+    {
+        "Authors": [
+            "Ryan Russell",
+            "Johnny Long",
+            "Timothy Mullen"
+        ],
+        "ISBN": "9781597492997",
+        "Language": "en",
+        "Publisher": "Syngress Press",
+        "Title": "Stealing The Network: How To Own The Box",
+        "Year": "2009"
+    },
+    {
+        "Authors": [
+            "Douglas Crockford"
+        ],
+        "ISBN": "9780596517748",
+        "Language": "en",
+        "Publisher": "O'Reilly Media, Inc.",
+        "Title": "JavaScript: The Good Parts",
+        "Year": "2008"
+    },
+    {
+        "Authors": [
+            "Shelley Powers",
+            "Shelley Powers"
+        ],
+        "ISBN": "9780596806132",
+        "Language": "",
+        "Publisher": "",
+        "Title": "JavaScript cookbook",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "Shelley Powers"
+        ],
+        "ISBN": "9780596527464",
+        "Language": "en",
+        "Publisher": "O'Reilly Media, Inc.",
+        "Title": "Learning JavaScript",
+        "Year": "2007"
+    },
+    {
+        "Authors": [
+            "David Flanagan"
+        ],
+        "ISBN": "9780596805524",
+        "Language": "en",
+        "Publisher": "O'Reilly Media, Inc.",
+        "Title": "JavaScript: The Definitive Guide",
+        "Year": "2011"
+    },
+    {
+        "Authors": [
+            "Paul Wilton"
+        ],
+        "ISBN": "9780764555879",
+        "Language": "en",
+        "Publisher": "Wrox",
+        "Title": "Beginning JavaScript",
+        "Year": "2004"
+    },
+    {
+        "Authors": [
+            "Kevin Yank",
+            "Cameron Adams",
+            "Kevin Yank"
+        ],
+        "ISBN": "9780980285802",
+        "Language": "",
+        "Publisher": "",
+        "Title": "Simply Javascript",
+        "Year": "2015"
+    },
+    {
+        "Authors": [
+            "Stuart Langridge"
+        ],
+        "ISBN": "9780957921894",
+        "Language": "en",
+        "Publisher": "Sitepoint Pty Limited",
+        "Title": "DHTML Utopia: Modern Web Design Using JavaScript &Amp;Amp; DOM",
+        "Year": "2005"
+    },
+    {
+        "Authors": [
+            "Patryk Korzeniecki"
+        ],
+        "ISBN": "9788393145447",
+        "Language": "en",
+        "Publisher": "",
+        "Title": "Chopin W Wikipedia",
+        "Year": "2010"
+    },
+    {
+        "Authors": [
+            "Wojtek Bogusz"
+        ],
+        "ISBN": "9789380765013",
+        "Language": "en",
+        "Publisher": "",
+        "Title": "Security In-A-Box",
+        "Year": "201?"
+    },
+    {
+        "Authors": [
+            "Jason Lankow",
+            "Josh Ritchie",
+            "Ross Crooks",
+            "Column Five",
+            "Jason Lankow"
+        ],
+        "ISBN": "9781118314043",
+        "Language": "",
+        "Publisher": "",
+        "Title": "Infographics: the power of visual storytelling",
+        "Year": ""
+    },
+    {
+        "Authors": [
+            "David Halliday",
+            "Robert Resnick",
+            "Jearl Walker"
+        ],
+        "ISBN": "9780471758013",
+        "Language": "en",
+        "Publisher": "Wiley",
+        "Title": "Fundamentals Of Physics",
+        "Year": "2007"
+    },
+    {
+        "Authors": [
+            "Jens Peter Rehahn"
+        ],
+        "ISBN": "9789607615008",
+        "Language": "el",
+        "Publisher": "Γλώσσημα",
+        "Title": "Λεξικό τηλεπικοινωνικής ορολογίας",
+        "Year": "1995"
+    },
+    {
+        "Authors": [
+            ""
+        ],
+        "ISBN": "9789607456069",
+        "Language": "el",
+        "Publisher": "Εκδόσεις Πελεκάνος",
+        "Title": "Εγκυκλοπαιδικό λεξικό πληροφορικής",
+        "Year": "1987"
+    },
+    {
+        "Authors": [
+            "Tony Curzon Price",
+            "Rebecca Daker"
+        ],
+        "ISBN": "9780955677533",
+        "Language": "en",
+        "Publisher": "openDemocracy",
+        "Title": "Open Web, Open Society? Liberty, Democracy and the Net",
+        "Year": "2010"
+    }
+]

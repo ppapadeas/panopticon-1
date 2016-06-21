@@ -1,6 +1,4 @@
-var panopticon = angular.module('panopticon', [
-    'ngRoute'
-]);
+var panopticon = angular.module('panopticon', ['ngRoute']);
 
 panopticon.config(['$routeProvider',
     function($routeProvider) {
@@ -32,8 +30,18 @@ panopticon.config(['$routeProvider',
                 templateUrl: 'partials/supporters.html',
                 redirectTo: get_to_top
             }).
+            when('/library', {
+                templateUrl: 'partials/library.html',
+                redirectTo: get_to_top
+            }).
             otherwise({
                 templateUrl: 'partials/vision.html'
             });
     }
 ]);
+
+panopticon.controller('booksCtrl', function ($scope, $http) {
+    $http.get('library/books.json').success(function(data) {
+        $scope.books = data;
+    });
+});

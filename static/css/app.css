@@ -269,6 +269,39 @@ table > caption {
     font-size: 1.2em;
 }
 
+.book {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 460px;
+    clear: both;
+    min-height: 180px;
+}
+
+.book-cover {
+    float: left;
+    margin-right: 10px;
+}
+
+.book-cover img {
+    max-width: 130px;
+}
+
+.book-info {
+    margin-bottom: 5px;
+}
+
+.book-search .form-group {
+    margin-bottom: 0;
+}
+
+.authors:not(:last-child)::after {
+    content: ", "
+}
+
+.books-filter .form-group {
+    margin-bottom: 0;
+}
+
 #footer {
     margin: auto;
     text-align: center;

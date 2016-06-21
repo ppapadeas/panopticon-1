@@ -1,0 +1,53 @@
+<script src="static/js/lang.js"></script>
+<h3 data-l10n-id="library-title"></h3>
+<div ng-controller="booksCtrl">
+  <p><span data-l10n-id="library-text"></span> ({{ books.length }}).</p>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="panel panel-default">
+        <div class="panel-heading book-search">
+          <form class="inline-form books-filter" role="search">
+            <div class="form-group">
+              <label for="searchterm" class="sr-only">Search</label>
+              <input type="text" class="form-control" id="searchterm"
+                     placeholder="Start typing to filter" ng-model="books.query">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <section class="books-container">
+        <div class="book" ng-repeat="book in books | filter:books.query" ng-init="image = 'library/' + book.ISBN + '.jpeg'">
+          <div class="book-cover">
+            <img ng-src="{{ image || 'static/img/default.jpeg' }}" title="{{ book.ISBN }}">
+          </div>
+            <div class="book-info">
+              <h4>{{ book.Title }}</h4>
+            </div>
+            <div class="book-info">
+              <span class="label label-default">authors:</span>
+              <span class="authors" ng-repeat="author in book.Authors track by $index">{{ author }}</span>
+            </div>
+            <div class="book-info" ng-if="book.Publisher">
+              <span class="label label-default">publisher:</span>
+              <span>{{ book.Publisher }}</span>
+            </div>
+            <div class="book-info" ng-if="book.Year">
+              <span class="label label-default">year:</span>
+              <span>{{ book.Year }}</span>
+            </div>
+            <div class="book-info" ng-if="book.Language">
+              <span class="label label-default">language:</span>
+              <span>{{ book.Language }}</span>
+            </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+</div>
