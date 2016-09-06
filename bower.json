@@ -11,8 +11,13 @@
     "mapbox.js": "2.2.x",
     "font-awesome": "4.5.0",
     "webL10n": "*",
-    "moment": "2.11.x",
+    "moment": "2.10.x",
     "angular-route": "1.4.x",
-    "angular-ui": "0.4.x"
+    "angular-ui": "0.4.x",
+    "ng-showdown": "1.1.0",
+    "angular-moment": "0.10.3"
+  },
+  "resolutions": {
+    "angular": "1.5.x"
   }
 }

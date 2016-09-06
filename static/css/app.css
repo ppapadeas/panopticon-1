@@ -269,6 +269,14 @@ table > caption {
     font-size: 1.2em;
 }
 
+.updates-text {
+    margin-bottom: 20px;
+}
+
+.updates-meta {
+    margin-top: 20px;
+}
+
 .book {
     padding: 10px;
     margin-bottom: 20px;

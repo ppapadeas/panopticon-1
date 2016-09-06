@@ -1,4 +1,4 @@
-var panopticon = angular.module('panopticon', ['ngRoute']);
+var panopticon = angular.module('panopticon', ['ngRoute', 'ng-showdown', 'angularMoment']);
 
 panopticon.config(['$routeProvider',
     function($routeProvider) {
@@ -17,6 +17,9 @@ panopticon.config(['$routeProvider',
             }).
             when('/services', {
                 templateUrl: 'partials/services.html'
+            }).
+            when('/updates/:uuid', {
+                templateUrl: 'partials/updates.html'
             }).
             when('/location', {
                 templateUrl: 'partials/location.html',
@@ -40,8 +43,23 @@ panopticon.config(['$routeProvider',
     }
 ]);
 
+panopticon.filter('md', function($filter) {
+   return function(data) {
+       if (!data) return data;
+       return data.replace(/\n/g, '<br>');
+   };
+});
+
 panopticon.controller('booksCtrl', function ($scope, $http) {
     $http.get('library/books.json').success(function(data) {
         $scope.books = data;
+    });
+});
+
+panopticon.controller('updatesCtrl', function ($scope, $routeParams, $http) {
+    $http.get('https://librenet.gr/posts/' + $routeParams.uuid + '.json').success(function(item) {
+        $scope.update = item;
+    }).error(function(data) {
+        console.log(data);
     });
 });

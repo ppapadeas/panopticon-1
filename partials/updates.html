@@ -1,0 +1,14 @@
+<script src="static/js/lang.js"></script>
+
+<h3>Updates</h3>
+
+<div ng-controller="updatesCtrl">
+  <div ng-if="update.text" markdown-to-html="update.text" class="updates-text"></div>
+
+  <img ng-if="update.photos" ng-src="{{ update.photos[0].sizes.large }}" class="img-responsive">
+
+  <div class="updates-meta" ng-if="update.created_at">
+    <i class="fa fa-calendar" aria-hidden="true"></i>
+    <a href="/#/updates/{{ update.id }}/" am-time-ago="update.created_at"></a>
+  </div>
+</div>
