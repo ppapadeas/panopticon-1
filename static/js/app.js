@@ -1,4 +1,7 @@
-var panopticon = angular.module('panopticon', ['ngRoute', 'ng-showdown', 'angularMoment']);
+var panopticon = angular.module('panopticon', ['ngRoute', 'ng-showdown', 'angularMoment', 'angular-loading-bar'])
+    .config(['cfpLoadingBarProvider', function(cfpLoadingBarProvider) {
+        cfpLoadingBarProvider.includeSpinner = false;
+    }]);
 
 panopticon.config(['$routeProvider',
     function($routeProvider) {

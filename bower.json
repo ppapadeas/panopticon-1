@@ -15,7 +15,8 @@
     "angular-route": "1.4.x",
     "angular-ui": "0.4.x",
     "ng-showdown": "1.1.0",
-    "angular-moment": "0.10.3"
+    "angular-moment": "0.10.3",
+    "angular-loading-bar": "0.9.0"
   },
   "resolutions": {
     "angular": "1.5.x"

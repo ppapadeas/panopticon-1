@@ -68,6 +68,14 @@ a {
     color: #800;
 }
 
+#loading-bar .bar {
+    background: #800;
+}
+
+#loading-bar .peg {
+    box-shadow: #800 1px 0 6px 1px;
+}
+
 h3 {
     margin-top: 0px;
     margin-bottom: 15px;
