@@ -83,6 +83,7 @@
               <li>Endless respect from everyone else :-)</li>
             </ul>
           </p>
+	  <p>Or you can do an one time <a href="https://www.hackerspace.gr/#/support">donation</a></p>
         </div>
         <div><?php echo $errormsg; ?></div>
         <div class="form-group has-error">
