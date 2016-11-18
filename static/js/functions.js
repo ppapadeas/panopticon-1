@@ -52,7 +52,7 @@ function get_counter() {
             $('#openornot').html('<b>hackers</b> and ' + random_no + ' ' + skadalia[random_text] + ' in space, means that space is now <b>open</b>!');
         }
     });
-};
+}
 
 
 // Display All future events in ical file as list.
@@ -108,7 +108,7 @@ function get_news() {
         ShowDesc : false,
         ShowPubDate: false
     });
-};
+}
 
 function get_to_top() {
     $('body, html').animate({

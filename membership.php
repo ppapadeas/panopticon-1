@@ -52,7 +52,7 @@
                   $text = "name: ".$name."\nemail: ".$email."\nmemberspage: ".$memberspage."\ndiscusslist: ".$discusslist."\n\n";
                   $text = $text."recipient: ".$addrrec."\nstreet: ".$addrstreet."\npo: ".$addrpo."\ncity: ".$addrcity."\ncountry: ".$addrcountry;
                   mail("registration@hackerspace.gr", "[hsgr] Membership request", "$text", $headers);
-                  echo "<div class='alert alert-success membership-notice'>Thank you! Just one more step...<br><br>Pay your first <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SU9M26K3ALNV8' target='_blank'>3-month subscription</a>.</div>";
+                  echo "<div class='alert alert-success membership-notice'>Thank you! Just one more step...<br><br>Pay your first subscription on <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SU9M26K3ALNV8' target='_blank'>Paypal</a> or <a href='https://www.patreon.com/hackerspacegr' target='_blank'>Patreon</a>.</div>";
               } else {
                   # set the error code so that we can display it
                   $error = $resp->error;
