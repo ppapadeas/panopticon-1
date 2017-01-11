@@ -101,7 +101,7 @@
         </div>
         <div class="checkbox">
           <label>
-            <input type="checkbox" name="discusslist" value="1"> Subscribe to discussions mailing list.
+            <input type="checkbox" name="discusslist" value="1"> Subscribe me to discussions mailing list.
           </label>
         </div>
         <?php
@@ -109,7 +109,7 @@
         ?>
         <hr>
         <div class="form-group">
-          <label for="address">Shipping Address - <small>in case you want your hackerspace passport :)</small></label>
+          <label for="address">Shipping Address - <small>in case you want your hackerspace passport :)</small></label><br>
           <label for="Recipient">Recipient</label>
           <input type="text" class="form-control" name="addrrec" placeholder="Recipient">
           <label for="Street">Street</label>
