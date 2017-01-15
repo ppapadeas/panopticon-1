@@ -69,8 +69,8 @@ function displayEvents(events, events_current, limit) {
         li.setAttribute('class', 'event');
         // Add details from cal file.
         li.innerHTML = '<span class="fa fa-calendar"></span> <a href="'+events[i].URL+'" target="_blank">' +
-        events[i].SUMMARY + '</a><br>&nbsp;&nbsp;&nbsp;&nbsp;' + events[i].day + ', ' + events[i].start_day + '.' +
-        events[i].start_month + ' ' + events[i].start_time + '';
+        events[i].SUMMARY + '</a><div class="events-date">' + events[i].day + ', ' + events[i].start_day + '.' +
+        events[i].start_month + ' ' + events[i].start_time + '</div>';
         // Add list item to list.
         document.getElementById('calendar').appendChild(li);
         $(eventdesc).html(events[i].DESCRIPTION);

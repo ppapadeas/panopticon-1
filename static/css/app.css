@@ -208,6 +208,21 @@ section > div {
     display:none;
 }
 
+.events-regular {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+
+.events-assembly {
+    padding-left: 22px;
+    font-size: .9em;
+    opacity: .7;
+}
+
+.events-date {
+    padding-left: 22px;
+}
+
 .feedEkList,
 .calendar {
     list-style-type: none;
