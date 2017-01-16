@@ -58,9 +58,10 @@ function get_counter() {
 // Display All future events in ical file as list.
 function displayEvents(events, events_current, limit) {
     // Foreach event
+    var li;
     for ( var i=0; i<Math.min(limit, events.length); i++) {
         // Create a list item
-        var li = document.createElement('li');
+        li = document.createElement('li');
         var eventid = "#EventModal-c" + i;
         var eventdesc = "#EventDescription-c" + i;
         var eventtitle = "#EventLabel-c" + i;
@@ -69,7 +70,7 @@ function displayEvents(events, events_current, limit) {
         li.setAttribute('class', 'event');
         // Add details from cal file.
         li.innerHTML = '<span class="fa fa-calendar"></span> <a href="'+events[i].URL+'" target="_blank">' +
-        events[i].SUMMARY + '</a><div class="events-date">' + events[i].day + ', ' + events[i].start_day + '.' +
+        events[i].SUMMARY + '</a><div class="list-date">' + events[i].day + ', ' + events[i].start_day + '.' +
         events[i].start_month + ' ' + events[i].start_time + '</div>';
         // Add list item to list.
         document.getElementById('calendar').appendChild(li);
@@ -80,8 +81,8 @@ function displayEvents(events, events_current, limit) {
     }
     for ( var j=0; j<Math.min(limit,events.length); j++) {
         // Create a list item
-        var li = document.createElement('li');
-        li.setAttribute('class', 'event');
+        li = document.createElement('li');
+        li.setAttribute('class', 'list-item');
         // Add details from cal file.
         li.innerHTML = '<span class="fa fa-calendar"></span> <a target="_blank" href="'+ events_current[j].URL + '">' +
         events_current[j].SUMMARY + '</a><br>&nbsp;&nbsp;&nbsp;&nbsp;' + events_current[j].day + ', ' + events_current[j].start_day + '/' +
@@ -102,11 +103,18 @@ function get_events() {
 }
 
 function get_news() {
-    $('#news').FeedEk({
-        FeedUrl : 'https://librenet.gr/public/hsgr.atom',
-        MaxCount : 5,
-        ShowDesc : false,
-        ShowPubDate: false
+    $.get('/feed/', function (data) {
+        var news_html = '';
+        $(data).find('entry').each(function (i) {
+            var item = $(this);
+            console.log(item);
+            var link = item.find("id").text();
+            var title = item.find("title").text();
+            var pubdate = moment(item.find("published").text()).fromNow();
+            news_html += '<li><div class="itemTitle"><span class="fa fa-newspaper-o"></span> <a href="/#/updates/' + link.split('https://librenet.gr/p/')[1] + '">' + title + '</a><div class="events-date">' + pubdate + '</div></li>';
+            return i<5;
+        });
+        $('#news').html(news_html);
     });
 }
 

@@ -223,15 +223,16 @@ section > div {
     padding-left: 22px;
 }
 
-.feedEkList,
+#news,
 .calendar {
     list-style-type: none;
     padding: 0;
     margin-left: 0;
 }
 
-.feedEkList > li {
+#news > li {
     margin-top: 15px;
+    list-style-type: none;
 }
 
 .event {
