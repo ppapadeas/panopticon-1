@@ -208,6 +208,10 @@ section > div {
     display:none;
 }
 
+.carousel {
+    padding: 0;
+}
+
 .events-regular {
     border-bottom: 1px solid lightgray;
     padding-bottom: 10px;
