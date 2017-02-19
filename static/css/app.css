@@ -182,7 +182,8 @@ section > div {
     padding: 0px 11px 8px 15px;
 }
 
-.feed {
+.feed,
+.uptime {
     display: inline-block;
     margin-left: 6px;
 }
