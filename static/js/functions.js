@@ -13,13 +13,13 @@ function getLang() {
 
 function get_counter() {
     $.ajax({
-        url: 'https://www.hackerspace.gr/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=Network/Leases',
-        dataType: 'jsonp',
-        crossDomain: true,
+        url: 'https://www.hackerspace.gr/spaceapi',
+        dataType: 'json',
         cache: false
     }).done(function(json) {
-        var count = json.query.pages[168].revisions[0]["*"];
-        var splitted = count.split(" ");
+        var message = json.state.message;
+        var state = json.state.open;
+        var count = message.split(" hacker(s) in space")[0];
         var random_no = Math.floor((Math.random()*10)+2);
         var skadalia = [
             'thieves',
@@ -38,18 +38,12 @@ function get_counter() {
             'ground stations'
         ];
         var random_text = Math.floor(Math.random()*skadalia.length);
-        if ( isNaN(splitted[0]) ) {
-            $("#openornot").html('0 hackers and ' + random_no + ' ' + skadalia[random_text] + ' in space, means that space is now closed!');
-        } else if (splitted[0] == "0") {
-            $('#counter').html(splitted[0]);
-            $('#openornot').html('hackers and ' + random_no + ' ' + skadalia[random_text] + ' in space, means that space is now closed!');
-        } else if (splitted[0] == "-1") {
-            $('#counter').html("");
-            $('#openornot').html('Cannot determine if the space is open or closed. Please check again later.');
+        if (state) {
+            var hackers = ' hackers';
+            if (count == 1) hackers = ' hacker';
+            $('#openornot').html('<b>' + count + hackers + '</b> and ' + random_no + ' ' + skadalia[random_text] + ' in space, means that space is now <b>open</b>!');
         } else {
-            $('#counter').html(splitted[0]);
-            $("#counter").css("font-weight", "bold");
-            $('#openornot').html('<b>hackers</b> and ' + random_no + ' ' + skadalia[random_text] + ' in space, means that space is now <b>open</b>!');
+            $("#openornot").html(count + ' and ' + random_no + ' ' + skadalia[random_text] + ' in space, means that space is now closed!');
         }
     });
 }
