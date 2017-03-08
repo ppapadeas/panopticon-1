@@ -5,20 +5,18 @@
   "homepage": "https://github.com/hsgr/panopticon",
   "license": "AGPL",
   "dependencies": {
-    "angular": "1.4.x",
+    "angular": "1.4.11",
     "jquery": "2.1.4",
     "bootstrap": "3.3.6",
     "mapbox.js": "2.2.x",
     "font-awesome": "4.5.0",
     "webL10n": "*",
     "moment": "2.10.x",
-    "angular-route": "1.4.x",
+    "angular-route": "1.4.11",
     "angular-ui": "0.4.x",
-    "ng-showdown": "1.1.0",
     "angular-moment": "0.10.3",
-    "angular-loading-bar": "0.9.0"
-  },
-  "resolutions": {
-    "angular": "1.5.x"
+    "angular-loading-bar": "0.9.0",
+    "angular-sanitize": "1.4.11",
+    "ng-showdown": "1.1.0"
   }
 }
